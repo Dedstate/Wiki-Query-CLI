@@ -90,32 +90,6 @@ You can customize where Hugging Face caches model weights:
 
 ---
 
-## 🛠️ Development
-
-1. **Activate the virtual environment**  
-   ```bash
-   poetry shell
-   ```
-
-2. **Install dev tools**  
-   ```bash
-   poetry install --with dev
-   ```
-
-3. **Run local tests**  
-   *(if you’ve added any)*  
-   ```bash
-   pytest
-   ```
-
-4. **Format and lint**  
-   ```bash
-   black .
-   ruff check . --fix
-   ```
-
----
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request on GitHub.
